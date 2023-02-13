@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Super Mega Snake</string>
+    <string name="titleTextView_text">SUPER MEGA SNAKE 9000</string>
+    <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
+    <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
+    <string name="highScoreButton_text">HIGH SCORE</string>
 </resources>
