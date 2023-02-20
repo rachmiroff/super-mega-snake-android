@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/press_start_regular_2p"
-        android:text="YOU LOST!"
+        android:text="@string/lostButton_text"
         android:textAlignment="center"
         android:textSize="36sp"
         android:textStyle="bold"
@@ -22,18 +22,65 @@
         app:layout_constraintVertical_bias="0.36" />
 
     <TextView
-        android:id="@+id/bestPlayersListTextView"
+        android:id="@+id/firstBestPlayersHighScoreTextView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="24dp"
         android:fontFamily="@font/press_start_regular_2p"
-        android:text="crazy_turtle: 9\nsad_buguette: 8"
+        android:text="@string/firstBestPlayersHighScore_text"
         android:textAlignment="center"
-        android:textSize="16sp"
+        android:textSize="18sp"
         android:textStyle="bold"
+        android:textColor="@color/teal_700"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/titleDefeatTextView" />
+
+    <TextView
+        android:id="@+id/secondBestPlayersHighScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/secondBestPlayersHighScore_text"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/firstBestPlayersHighScoreTextView" />
+
+    <TextView
+        android:id="@+id/thirdBestPlayersHighScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/thirdBestPlayersHighScore_text"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/purple_700"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/secondBestPlayersHighScoreTextView" />
+
+    <TextView
+        android:id="@+id/fourthBestPlayersHighScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/fourthBestPlayersHighScore_text"
+        android:textAlignment="center"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/thirdBestPlayersHighScoreTextView" />
+
 
     <Button
         android:id="@+id/playAgainButton"
@@ -46,7 +93,7 @@
         android:textSize="18sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/bestPlayersListTextView" />
+        app:layout_constraintTop_toBottomOf="@+id/fourthBestPlayersHighScoreTextView" />
 
     <Button
         android:id="@+id/backToMenuButton"
