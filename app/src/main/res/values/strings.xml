@@ -4,4 +4,7 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+    <string name="lost_text">You Lost...</string>
+    <string name="your_score_label_text">Your Score: 9</string>
+    <string name="high_score_label_text">High Score: 10</string>
 </resources>
