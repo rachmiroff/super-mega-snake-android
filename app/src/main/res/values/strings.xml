@@ -4,4 +4,17 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+
+    <string name ="mainPlayerName">infamous_snake</string>
+    <string name="mainPlayerScoreText">SCORE: - </string>
+    <string name ="secondPlayerScoreText">crazy_turtle: -</string>
+    <string name ="thirdPlayerScoreText">sad_baguette: -</string>
+    <string name ="fourthPlayerScoreText">super-potato: -</string>
+
+    <string name="contentPlaygroundDescriptionText">playgroundSampleImage</string>
+
+    <string name ="buttonMoveUpText">↑</string>
+    <string name ="buttonMoveRightText">→</string>
+    <string name ="buttonMoveDownText">↓</string>
+    <string name ="buttonMoveLeftText">←</string>
 </resources>

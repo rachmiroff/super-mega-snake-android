@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MultiPlayerGameActivity">
+
+    <TextView
+        android:id="@+id/titleFirstPlaceNameGameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/mainPlayerName"
+        android:textAlignment="center"
+        android:textColor="@color/firstPlayer"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/firstPlaceScoreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/firstPlaceScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/mainPlayerScoreText"
+        android:textAlignment="center"
+        android:textColor="@color/firstPlayer"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/imageView"
+        app:layout_constraintEnd_toEndOf="@+id/titleFirstPlaceNameGameTextView"
+        app:layout_constraintHorizontal_bias="0.052"
+        app:layout_constraintStart_toStartOf="@+id/titleFirstPlaceNameGameTextView"
+        app:layout_constraintWidth="@+id/titleFirstPlaceNameGameTextView" />
+
+    <TextView
+        android:id="@+id/fourthPlaceScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/fourthPlayerScoreText"
+        android:textAlignment="center"
+        android:textColor="@color/fourthPlayer"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/firstPlaceScoreTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.725"
+        app:layout_constraintRight_toLeftOf="@+id/firstPlaceScoreTextView"
+        app:layout_constraintStart_toEndOf="@+id/firstPlaceScoreTextView" />
+
+    <TextView
+        android:id="@+id/thirdPlaceScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/secondPlayerScoreText"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        android:textColor="@color/thirdPlayer"
+        app:layout_constraintBottom_toTopOf="@+id/fourthPlaceScoreTextView"
+        app:layout_constraintStart_toStartOf="@+id/fourthPlaceScoreTextView" />
+
+    <TextView
+        android:id="@+id/secondPlaceScoreTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:text="@string/secondPlayerScoreText"
+        android:textColor="@color/secondPlayer"
+        android:textAlignment="center"
+        android:textSize="11sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/thirdPlaceScoreTextView"
+        app:layout_constraintStart_toStartOf="@+id/thirdPlaceScoreTextView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="350dp"
+        android:layout_height="400dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.48"
+        app:srcCompat="@drawable/ic_launcher_background"
+        android:contentDescription="@string/contentPlaygroundDescriptionText" />
+
+    <Button
+        android:id="@+id/moveUpControlButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/defaultButtonColor"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:onClick="onMoveUpButtonClick"
+        android:text="@string/buttonMoveUpText"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.724"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.236" />
+
+    <Button
+        android:id="@+id/moveRightControlButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/defaultButtonColor"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:onClick="onMoveRightButtonClick"
+        android:text="@string/buttonMoveRightText"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toEndOf="@+id/moveUpControlButton"
+        app:layout_constraintTop_toTopOf="@+id/moveUpControlButton"
+        app:layout_constraintVertical_bias="0.235" />
+
+    <Button
+        android:id="@+id/moveDownControlButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/defaultButtonColor"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:onClick="onMoveDownButtonClick"
+        android:text="@string/buttonMoveDownText"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/moveUpControlButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/moveUpControlButton"
+        app:layout_constraintTop_toTopOf="@+id/moveRightControlButton"
+        app:layout_constraintVertical_bias="0.446" />
+
+    <Button
+        android:id="@+id/moveLeftControlButton"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:backgroundTint="@color/defaultButtonColor"
+        android:fontFamily="@font/press_start_regular_2p"
+        android:onClick="onMoveLeftButtonClick"
+        android:text="@string/buttonMoveLeftText"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/moveUpControlButton"
+        app:layout_constraintHorizontal_bias="0.963"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/moveUpControlButton"
+        app:layout_constraintVertical_bias="0.23" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

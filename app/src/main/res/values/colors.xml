@@ -7,4 +7,13 @@
     <color name="teal_700">#011E87</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="green">#FF4CAF50</color>
+    <color name="yellow">#FFFFEB3B</color>
+
+    <color name="firstPlayer">#DB00FF</color>
+    <color name="secondPlayer">#1400FF</color>
+    <color name="thirdPlayer">#0FFC0A</color>
+    <color name="fourthPlayer">#FF0909</color>
+
+    <color name = "defaultButtonColor">#00FFFFFF</color>
 </resources>
