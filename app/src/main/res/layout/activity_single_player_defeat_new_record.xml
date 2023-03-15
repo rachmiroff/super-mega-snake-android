@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SinglePlayerDefeatActivity">
+    tools:context=".SinglePlayerDefeatActivityNewRecord">
 
     <TextView
         android:id="@+id/titleSingleDefeatTextView"
@@ -26,15 +26,21 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/press_start_2p_regular"
+        android:paddingLeft="30dp"
+        android:paddingTop="30dp"
+        android:paddingRight="30dp"
+        android:paddingBottom="20dp"
+        android:lineSpacingExtra="10sp"
         android:text="@string/titleCongratulationsTextView_text"
         android:textAlignment="center"
         android:textSize="24sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.30" />
+        app:layout_constraintVertical_bias="0.3" />
 
     <TextView
         android:id="@+id/titlePlayerScoreTextView"

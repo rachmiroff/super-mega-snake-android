@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class SinglePlayerDefeatActivity extends AppCompatActivity {
+public class SinglePlayerDefeatActivityNewRecord extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_single_player_defeat);
+        setContentView(R.layout.activity_single_player_defeat_new_record);
     }
 }
