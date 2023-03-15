@@ -4,4 +4,10 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+    <string name="titleSingleDefeatTextView_text">YOU LOST!</string>
+    <string name="titleCongratulationsTextView_text">...and set the NEW RECORD!</string>
+    <string name="titlePlayerScoreTextView_text">Your score: 12</string>
+    <string name="titlePreviousBestScoreTextView_text">Best score: 10</string>
+    <string name="playAgainButton_text">PLAY AGAIN</string>
+    <string name="backToMenuButton_text">BACK TO MENU</string>
 </resources>
