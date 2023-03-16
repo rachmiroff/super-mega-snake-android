@@ -4,4 +4,9 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+    <string name="lostButton_text">YOU LOST!</string>
+    <string name="firstBestPlayersHighScore_text">crazy_turtle: 9</string>
+    <string name="secondBestPlayersHighScore_text">sad_buguette: 8</string>
+    <string name="thirdBestPlayersHighScore_text">super_potato: 5</string>
+    <string name="fourthBestPlayersHighScore_text">infamous_snake: 3</string>
 </resources>
