@@ -29,6 +29,10 @@
             android:exported="false"
             android:parentActivityName=".MainActivity" />
         <activity
+            android:name=".SinglePlayerAdActivity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
             android:name=".LoginActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
