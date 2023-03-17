@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="martini_east">#CE8E8E</color>
     <color name="purple_200">#FC8686</color>
+    <color name="red">#FF0000</color>
     <color name="purple_500">#EE0000</color>
     <color name="purple_700">#B30000</color>
     <color name="teal_200">#0327DA</color>
     <color name="teal_700">#011E87</color>
+    <color name="dark">#2D2D2D</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
 </resources>
