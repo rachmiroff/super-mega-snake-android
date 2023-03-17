@@ -4,4 +4,8 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+    <string name="nicknameTextView_text">infamous_snake</string>
+    <string name="selectNicknameButton_text">Select this nickname</string>
+    <string name="backToMenuButton_text">BACK TO MENU</string>
+    <string name="changeNicknameButton_text">\@</string>
 </resources>
