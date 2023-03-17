@@ -4,4 +4,7 @@
     <string name="singlePlayerButton_text">SINGLE-PLAYER GAME</string>
     <string name="multiPlayerButton_text">MULTI-PLAYER GAME</string>
     <string name="highScoreButton_text">HIGH SCORES</string>
+    <string name="disconnectedTextView_text">Disconnected</string>
+    <string name="connectionErrorTextView_text">Connection Error</string>
+    <string name="backToMenuButton_text">BACK TO MENU</string>
 </resources>
