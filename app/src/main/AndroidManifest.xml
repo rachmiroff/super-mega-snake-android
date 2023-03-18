@@ -32,6 +32,14 @@
             android:name=".LoginActivity"
             android:exported="false"
             android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MultiPlayerGameActivity"
+            android:exported="false"
+            android:parentActivityName=".MultiPlayerGameActivity" />
+        <activity
+            android:name=".MultiPlayerDefeatActivity"
+            android:exported="false"
+            android:parentActivityName=".MultiPlayerDefeatActivity" />
     </application>
 
 </manifest>

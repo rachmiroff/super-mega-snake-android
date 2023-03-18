@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void onMultiPlayerButtonClick(View view) {
-        Intent intent = new Intent(this, LoginActivity.class);
+        Intent intent = new Intent(this, MultiPlayerDefeatActivity.class);
         startActivity(intent);
     }
 
